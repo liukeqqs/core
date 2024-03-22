@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/go-gost/core/metadata"
+	"github.com/liukeqqs/core/metadata"
 )
 
 var (

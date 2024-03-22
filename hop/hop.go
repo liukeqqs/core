@@ -3,7 +3,7 @@ package hop
 import (
 	"context"
 
-	"github.com/go-gost/core/chain"
+	"github.com/liukeqqs/core/chain"
 )
 
 type SelectOptions struct {

@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	xnet "github.com/go-gost/core/common/net"
-	"github.com/go-gost/core/logger"
+	xnet "github.com/liukeqqs/core/common/net"
+	"github.com/liukeqqs/core/logger"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-gost/core/common/net/dialer"
-	"github.com/go-gost/core/common/net/udp"
-	"github.com/go-gost/core/logger"
+	"github.com/liukeqqs/core/common/net/dialer"
+	"github.com/liukeqqs/core/common/net/udp"
+	"github.com/liukeqqs/core/logger"
 )
 
 var (

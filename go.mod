@@ -1,5 +1,12 @@
-module github.com/go-gost/core
+module github.com/liukeqqs/core
 
-go 1.18
+go 1.21
 
-require golang.org/x/sys v0.12.0
+toolchain go1.22.1
+
+require (
+	github.com/liukeqqs/x v0.0.6
+	golang.org/x/sys v0.16.0
+)
+
+replace github.com/liukeqqs/x v0.0.6 => ../x

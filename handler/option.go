@@ -4,14 +4,14 @@ import (
 	"crypto/tls"
 	"net/url"
 
-	"github.com/go-gost/core/auth"
-	"github.com/go-gost/core/bypass"
-	"github.com/go-gost/core/chain"
-	"github.com/go-gost/core/limiter/rate"
-	"github.com/go-gost/core/limiter/traffic"
-	"github.com/go-gost/core/logger"
-	"github.com/go-gost/core/metadata"
-	"github.com/go-gost/core/observer"
+	"github.com/liukeqqs/core/auth"
+	"github.com/liukeqqs/core/bypass"
+	"github.com/liukeqqs/core/chain"
+	"github.com/liukeqqs/core/limiter/rate"
+	"github.com/liukeqqs/core/limiter/traffic"
+	"github.com/liukeqqs/core/logger"
+	"github.com/liukeqqs/core/metadata"
+	"github.com/liukeqqs/core/observer"
 )
 
 type Options struct {
@@ -23,7 +23,7 @@ type Options struct {
 	Limiter     traffic.TrafficLimiter
 	TLSConfig   *tls.Config
 	Logger      logger.Logger
-	Observer observer.Observer
+	Observer    observer.Observer
 	Service     string
 }
 

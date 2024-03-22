@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-gost/core/hosts"
-	"github.com/go-gost/core/logger"
-	"github.com/go-gost/core/recorder"
-	"github.com/go-gost/core/resolver"
+	"github.com/liukeqqs/core/hosts"
+	"github.com/liukeqqs/core/logger"
+	"github.com/liukeqqs/core/recorder"
+	"github.com/liukeqqs/core/resolver"
 )
 
 type SockOpts struct {

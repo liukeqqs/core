@@ -3,12 +3,12 @@ package chain
 import (
 	"regexp"
 
-	"github.com/go-gost/core/auth"
-	"github.com/go-gost/core/bypass"
-	"github.com/go-gost/core/hosts"
-	"github.com/go-gost/core/metadata"
-	"github.com/go-gost/core/resolver"
-	"github.com/go-gost/core/selector"
+	"github.com/liukeqqs/core/auth"
+	"github.com/liukeqqs/core/bypass"
+	"github.com/liukeqqs/core/hosts"
+	"github.com/liukeqqs/core/metadata"
+	"github.com/liukeqqs/core/resolver"
+	"github.com/liukeqqs/core/selector"
 )
 
 type HTTPURLRewriteSetting struct {

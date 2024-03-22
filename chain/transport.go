@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	net_dialer "github.com/go-gost/core/common/net/dialer"
-	"github.com/go-gost/core/connector"
-	"github.com/go-gost/core/dialer"
+	net_dialer "github.com/liukeqqs/core/common/net/dialer"
+	"github.com/liukeqqs/core/connector"
+	"github.com/liukeqqs/core/dialer"
 )
 
 type TransportOptions struct {
